@@ -86,13 +86,18 @@ int main()
     int x, n;
     cout << " [x 입력]:";
     cin >> x;
+
     cout << " [n 입력]:";
     cin >> n;
+
     vector<long long> result = solution(x, n);
+
     cout << " [x의 n배수 배열]:";
+
     for (long long value : result)
     {
         cout << value << " ";
     }
+
     return 0;
 }
